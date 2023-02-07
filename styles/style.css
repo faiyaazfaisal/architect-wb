@@ -1,0 +1,186 @@
+/*---------- header section---------- */
+body{
+    font-family: sans-serif;
+}
+.header{
+    background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.title{
+   font-size: 50px;
+   margin-left: 300px;
+}
+.title-1{
+    color: darkgoldenrod;
+    font-size: 55px;
+}
+.lorem{
+    margin: 5px 29%;
+    color: rgb(77, 74, 74);
+}
+.btn{
+    margin:30px 0 0 43%;
+    height: 50px;
+    width: 150px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 30px;
+}
+.banner img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* ----------------
+   main section
+------------------ */
+.main{
+    margin: 100px;
+}
+.section-1{
+    /* margin: 100px; */
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.album{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:20px;
+}
+.quick-list{
+    margin-left: 30px;
+}
+.feature{
+  font-size: 40px;
+}
+.gray{
+   color: dimgray;
+}
+.our{
+   font-weight: bold;
+}
+.rong{
+    color: rgb(4, 121, 56);
+    font-weight: bold;
+}
+.dolar{
+   color: lightslategray;
+}
+/* ------------------------------------
+        second section
+--------------------------------------- */
+.main{
+    background-color: aliceblue;
+}
+.second-container{
+    display: flex;
+}
+.italic{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.explore{
+    font-size: 18px;
+    color: rgb(87, 85, 85);
+    margin-bottom: 60px;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.explanation{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 60px;
+}
+.box-1{
+    background-color: lightcoral;
+    height: 70px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 50px 70px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(49, 58, 63);
+}
+.footer{
+    margin: 100px;
+}
+.fact{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.second-explanation{
+   font-size: 15px;
+   color: lightslategray;
+   margin-bottom: 80px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+}
+.logo img{
+    margin-top: 40px;
+    margin-left: 35%;
+}
+.number, .number-2, .number-3, .number-4{
+    font-weight: bold;
+}
+.number{
+    margin-left: 33%;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.number-2{
+    margin-left: 25%;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.number-3{
+    margin-left: 28%;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.number-4{
+    margin-left: 36%;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.logo-info{
+    font-size: 17px;
+    color: rgb(44, 40, 40);
+    margin-left: 20%;
+}
+    
