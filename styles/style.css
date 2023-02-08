@@ -4,6 +4,10 @@ body{
 }
 .header{
     background-color: antiquewhite;
+    width: 100%;
+}
+h1{
+    font-size: 30px;
 }
 nav{
     display: flex;
@@ -21,14 +25,16 @@ nav li{
 }
 .title{
    font-size: 50px;
-   margin-left: 300px;
+   text-align: center;
+   margin-bottom: 5px;
 }
 .title-1{
     color: darkgoldenrod;
     font-size: 55px;
 }
 .lorem{
-    margin: 5px 29%;
+    padding: 5px 170px;
+    text-align: center;
     color: rgb(77, 74, 74);
 }
 .btn{
@@ -141,9 +147,13 @@ nav li{
 .info{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo:hover{
+    background-color: olive;
 }
 .logo{
-    background-color: antiquewhite;
+    background-color:aquamarine;
     height: 200px;
     width: 200px;
 }
@@ -182,5 +192,111 @@ nav li{
     font-size: 17px;
     color: rgb(44, 40, 40);
     margin-left: 20%;
+}
+/* sponsor style */
+.sponsors{
+    margin-bottom: 170px;
+}
+.spon{
+    font-size: 40px;
+    font-weight: bold;
+    color: hwb(240 22% 43%);
+    text-align: center;
+    margin-bottom: 3px;
+}
+.description{
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+    text-align: center;
+    padding: 5px 200px;
+}
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.icon img{
+    height: 35px;
+    width: 100%;
+    filter: grayscale(70%);
+}
+.last{
+    background-color: hwb(353 91% 3%);
+    text-align: center;
+    width: 100%;
+    padding: 10px 80px;
+    border-radius: 5px;
+    color: hwb(0 23% 76%);
+}
+.finish{
+    margin-bottom: 200px;
+    margin-right: 160px;
+}
+@media only screen and (max-width: 576px){
+     .header, .main, .section-1, .second-section, .sponsors{
+        width: 100%;
+     }
+    nav ul, nav, .container{
+        display: block;
+    }
+    .title, .lorem{
+        text-align: center;
+    }
+    .album{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .second-container{
+        flex-direction: column;
+    }
+    .builder img{
+        width: 100%;
+    }
+    .footer-title{
+        text-align: center;
+    }
+    .info{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .spon, .description{
+        text-align: center;
+        padding: 0;
+    }
+    .sponsor-logo{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .last{
+        display: none;
+    }
+   
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+ .header, .main, .section-1, .second-section, .sponsors{
+        width: 100%;
+     }
+     nav ul, nav, .container{
+        display: block;
+    }
+    .album{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        justify-items: center;
+    }
+    .feature, .dolar, .fact, .second-explanation{
+        text-align: center;
+    }
+    .second-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 40px;
+    }
+    .spon, .description{
+        text-align: center;
+    }
 }
     
